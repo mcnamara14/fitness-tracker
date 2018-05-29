@@ -10,7 +10,7 @@ h1 {
   color: #fff;
   font-weight: lighter;
   text-transform: uppercase;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 
 h2 {
@@ -45,7 +45,7 @@ img {
 }
 
 .graph {
-  height: 255px;
+  height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -70,19 +70,19 @@ img {
 
 .daily-goals {
   margin: 0 auto;
-  padding: 35px;
+  padding: 17px 35px;
 }
 
 .steps .unfilled {
   height: 40px;
   background: #1e724c;
-  width: 55px;
+  width: 52px;
 }
 
 .steps .filled {
   height: 215px;
   background: #00ff8c;
-  width: 55px;
+  width: 52px;
   display: inline-block;
 }
 
@@ -122,4 +122,59 @@ img {
 
 .watts h2 {
   color: #a600ff;
+}
+
+.daily-goals-container {
+  background-color: #eae8e8;
+  padding: 1em 0 1em;
+  box-sizing: border-box;
+}
+
+.menu {
+  height: 10vh;
+  width: 100%;
+  background-color: white;
+}
+
+.set-goals {
+  width: 100%;
+  padding: 2vh;
+  background-color: #a502ff;
+  color: white;
+}
+
+.daily-goals-box {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 1.2vh 4vh;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.daily-goals-box h1{
+  color: black
+}
+
+.daily-goals-divider {
+  justify-content: space-between;
+  display: flex
+}
+
+.goals {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: .7em;
+}
+
+.upvote, .downvote {
+  height: 2em;
 }
