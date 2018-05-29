@@ -1,72 +1,87 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <link href="./styles.css" rel="stylesheet"/>
-  </head>
-  <body> 
-    <header>
-      <img src="./mobile-menu-icon.png"/>
-      <div class="logo">SWT</div>
-    </header>
-    <section class="daily-goals">
-      <h1>Daily Goals</h1>
-      <div class="graphs">
-        <article class="calories">
-          <div class="graph"><span class="unfilled"></span></span><span class="filled"></span></div>
-          <h2>calories</h2>
-        </article>
-        <article class="steps">
-            <div class="graph"><span class="unfilled"></span></span><span class="filled"></span></div>
-            <h2>steps</h2>
-        </article>
-        <article class="distance">
-            <div class="graph"><span class="unfilled"></span></span><span class="filled"></span></div>
-            <h2>distance</h2>
-        </article>
-        <article class="watts">
-            <div class="graph"><span class="unfilled"></span></span><span class="filled"></span></div>
-            <h2>watts</h2>
-        </article>
-    </graphs>
-    </section>
-    <section class='daily-goals-container'>
-      <article class='daily-goals-box'>
-        <h1>Monday, June 13</h1>
-        <div class='daily-goals-divider'>
-          <div class='goals'>
-            <h3>CALORIES<br /> 2000</h3>
-            <div class='icons'>
-              <button class='upvote'></button>
-              <button class='downvote'></button>       
-            </div>
-          </div>
-          <div class='goals'>
-              <h3>STEPS<br /> 2000</h3>
-              <div class='icons'>
-                <button class='upvote'></button>
-                <button class='downvote'></button>       
-              </div>
-            </div>
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Fitness Tracker App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="./styles.css" rel="stylesheet" />
+</head>
+
+<body>
+<header>
+  <img src="./mobile-menu-icon.png" />
+  <div class="logo">SWT</div>
+</header>
+
+<section class="daily-goals">
+  <h1>Daily Goals</h1>
+  <div class="graphs">
+    <article class="calories">
+      <div class="graph"><span class="unfilled"></span><span class="filled"></span></div>
+      <h2>calories</h2>
+    </article>
+    <article class="steps">
+      <div class="graph"><span class="unfilled"></span><span class="filled"></span></div>
+      <h2>steps</h2>
+    </article>
+    <article class="distance">
+      <div class="graph"><span class="unfilled"></span><span class="filled"></span></div>
+      <h2>distance</h2>
+    </article>
+    <article class="watts">
+      <div class="graph"><span class="unfilled"></span><span class="filled"></span></div>
+      <h2>watts</h2>
+    </article>
+  </div>
+</section>
+
+<section class='daily-goals-container'>
+  <article class='daily-goals-box'>
+    <h1>Monday, June 13</h1>
+    <div class='daily-goals-divider'>
+      <div class='goals'>
+        <h3>CALORIES<br /> 2000</h3>
+        <div class='icons'>
+          <button class='upvote'></button>
+          <button class='downvote'></button>
         </div>
-        <div class='daily-goals-divider'>
-            <div class='goals'>
-              <h3>CALORIES<br /> 2000</h3>
-              <div class='icons'>
-                <button class='upvote'></button>
-                <button class='downvote'></button>       
-              </div>
-            </div>
-            <div class='goals'>
-                <h3>STEPS<br /> 2000</h3>
-                <div class='icons'>
-                  <button class='upvote'></button>
-                  <button class='downvote'></button>       
-                </div>
-              </div>
-          </div>
-        <button class='set-goals'>Set Daily Goals</button>
-      </article>
-    </section>
-    <section class='menu'></section>
-  </body>
+      </div>
+      <div class='goals'>
+        <h3>STEPS<br /> 2000</h3>
+        <div class='icons'>
+          <button class='upvote'></button>
+          <button class='downvote'></button>
+        </div>
+      </div>
+    </div>
+    <div class='daily-goals-divider'>
+      <div class='goals'>
+        <h3>CALORIES<br /> 2000</h3>
+        <div class='icons'>
+          <button class='upvote'></button>
+          <button class='downvote'></button>
+        </div>
+      </div>
+      <div class='goals'>
+        <h3>STEPS<br /> 2000</h3>
+        <div class='icons'>
+          <button class='upvote'></button>
+          <button class='downvote'></button>
+        </div>
+      </div>
+    </div>
+    <button class='set-goals'>Set Daily Goals</button>
+  </article>
+</section>
+<section class='menu'>
+  <button class="list"><img src="assets/list.png" alt=""></button>
+  <button class="arm"><img src="assets/arm.png" alt=""></button>
+  <button class="heart"><img src="assets/heart.png" alt=""></button>
+  <button class="stopwatch"><img src="assets/stopwatch.png" alt=""></button>
+</section>
+</body>
 </html>
